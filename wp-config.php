@@ -28,8 +28,8 @@ if( file_exists('./local.ocal') ){
     define( 'DB_HOST', 'localhost' );
 } else {
     define( 'DB_NAME', 'wordpress' );
-    define( 'DB_USER', 'root' );
-    define( 'DB_PASSWORD', '' );
+    define( 'DB_USER', 'test' );
+    define( 'DB_PASSWORD', 'Pa$$word' );
     define( 'DB_HOST', 'localhost' );
 }
 
